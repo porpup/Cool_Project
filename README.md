@@ -1,3 +1,49 @@
+# Getting stater
+
+If you want to contribute please fork ths repo from [porpup's project](https://github.com/porpup/Cool_Project).
+
+In your fork:
+- Create a new branch with the name of the [new feature]
+> ``git checkout -b"new feature"``
+- Create a Pull request to [porpup's project](https://github.com/porpup/Cool_Project)
+
+# Installation and Run
+
+### Requirements
+
+One of the following versions of [Node.js](https://nodejs.org/en/download/) must be installed to run **`npm`**:
+
+* `18.x.x` >= `18.17.0`
+* `20.5.0` or higher
+
+
+Make sure you have the latest version of [![npm version](https://img.shields.io/npm/v/npm.svg)](https://npm.im/npm)(//npmjs.com/package/npm)
+
+
+Install the dependencies:
+
+``npm i``
+
+### Running Prisma Studio
+
+Load the schema:
+
+``npx prisma db push``
+
+After that you will see a message like `🚀  Your database is now in sync with your Prisma schema` and you are ready to run the studio.
+
+``npx prisma studio``
+
+### Going back to the official docs
+
+Follow the [Authentication](https://create.t3.gg/en/usage/first-steps#authentication) steps in the official documentation.
+
+### Running Next.js
+
+`npm run dev`
+
+___
+
 # Create T3 App
 
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
